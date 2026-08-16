@@ -6,6 +6,10 @@
 # The return value should be stored in a0
 f:
     # Your code here
+    addi t0 a0 3  # index into output array
+    slli t1 t0 2  # offset in bytes
+    add t1 a1 t1
+    lw a0 0(t1)
 
     # This is how you return from a function. You'll learn more about this later.
     # This should be the last line in your program.
