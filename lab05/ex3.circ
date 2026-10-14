@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project source="3.8.0-61c.c58792e" version="1.0">
-  This file is intended to be loaded by Logisim-evolution v3.8.0-61c.c58792e(https://github.com/61c-teach/logisim-evolution).
+<project source="3.8.0-61c.f1d5ac0" version="1.0">
+  This file is intended to be loaded by Logisim-evolution v3.8.0-61c.f1d5ac0(https://github.com/61c-teach/logisim-evolution).
 
   <lib desc="#Wiring" name="0">
     <tool name="Splitter">
@@ -73,11 +73,15 @@
     <a name="appearance" val="logisim_evolution"/>
     <a name="circuit" val="AddMachine"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="clabelfont" val="SansSerif bold 8"/>
     <a name="simulationFrequency" val="1.0"/>
     <comp lib="0" loc="(100,210)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="clk"/>
       <a name="locked" val="true"/>
+    </comp>
+    <comp lib="0" loc="(140,180)" name="Constant">
+      <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(480,180)" name="Pin">
       <a name="appearance" val="NewPins"/>
@@ -95,5 +99,23 @@
       <a name="output" val="true"/>
       <a name="width" val="8"/>
     </comp>
+    <comp lib="2" loc="(240,170)" name="Adder"/>
+    <comp lib="3" loc="(320,140)" name="Register">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <wire from="(100,210)" to="(320,210)"/>
+    <wire from="(140,180)" to="(200,180)"/>
+    <wire from="(170,120)" to="(170,160)"/>
+    <wire from="(170,120)" to="(400,120)"/>
+    <wire from="(170,160)" to="(200,160)"/>
+    <wire from="(240,170)" to="(280,170)"/>
+    <wire from="(280,100)" to="(280,170)"/>
+    <wire from="(280,100)" to="(480,100)"/>
+    <wire from="(280,170)" to="(320,170)"/>
+    <wire from="(380,170)" to="(400,170)"/>
+    <wire from="(400,120)" to="(400,170)"/>
+    <wire from="(400,170)" to="(400,240)"/>
+    <wire from="(400,240)" to="(480,240)"/>
+    <wire from="(480,100)" to="(480,180)"/>
   </circuit>
 </project>
