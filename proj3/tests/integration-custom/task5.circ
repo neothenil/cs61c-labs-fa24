@@ -171,7 +171,7 @@
       <a name="width" val="16"/>
     </comp>
     <comp lib="0" loc="(1630,980)" name="Constant">
-      <a name="value" val="0x5"/>
+      <a name="value" val="0x20"/>
       <a name="width" val="16"/>
     </comp>
     <comp lib="0" loc="(1750,970)" name="Pin">
@@ -315,7 +315,7 @@
       <a name="addrWidth" val="14"/>
       <a name="appearance" val="logisim_evolution"/>
       <a name="contents">addr/data: 14 32
-fff00393 ffe3f393 3f393
+100293 7ff00293 80028313 130313 500013 fff00393 ffe3f393 3f393 ffe00413 146413 46413 40413 fff00493 5554c493 493 fff00293 529313 1f29393 fff00293 52d313 1f2d393 fff00293 4052d313 41f2d393 100293 22a313 2a313 fff00293 2a313 8002a313
 </a>
       <a name="dataWidth" val="32"/>
     </comp>
